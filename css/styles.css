@@ -1,0 +1,35 @@
+#square {
+	position: relative;
+	width: 50px;
+	height: 50px;
+	background-color: red;
+	top: 0%; left: 0%;
+  /*transform: translate(-50%, -50%);*/
+}
+
+
+
+body {
+	margin: 0px 100px;
+}
+.ui-message {
+	position: relative;
+	margin: 0px 10px;
+	padding: 5px 10px;
+	background-color: #FFF1C7;
+	border-style: solid;
+	border-color: #F2E1AC;
+}
+.ui-close {
+	position: absolute;
+	top: 0;
+	right: 0;
+	color: black;
+	padding: 1px 6px;
+	cursor: pointer;
+}
+
+.faq-question {
+	color: blue;
+	cursor: pointer;
+}
